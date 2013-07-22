@@ -11,18 +11,16 @@ package
 	public class wave extends Sprite {
 		
 		//class wide objects
-		private var mic:Microphone; 
+		private var mic:Microphone = Microphone.getMicrophone();
 		private var buf:Array = new Array();
 		private var writePos:uint = 0; 
-		private var timer:Timer;
+		private var timer:Timer = new Timer(10)
 		
 		public function wave():void{
 			//setup microphone
-			mic = Microphone.getMicrophone();
 			mic.addEventListener( SampleDataEvent.SAMPLE_DATA, onMicSampleData );
-			mic.rate = 1;
-			//setup a timer to update the wave every X milliseconds 
-			timer = new Timer(10);
+			mic.rate = 11;
+			//setup timer, used to redraw the wave every X milliseconds
             timer.addEventListener(TimerEvent.TIMER, updateWave);
             timer.start();
 		}
