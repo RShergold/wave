@@ -13,7 +13,7 @@ Please note I wrote this code with [textmate](http://macromates.com) and the
 So if you're using Flash Builder you may have to create a new project in your SDK and drop the code in.
 
 
-I wrote the script by peicing together bits of other code as a learning exercise. If you want a more 
+I wrote the script by piecing together bits of other code as a learning exercise. If you want a more 
 concise version take a look at 
 [Fumio Nonaka's post](http://www.adobe.com/devnet/flash/articles/flcs5_features_microphone_event.html).
 
