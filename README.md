@@ -21,3 +21,5 @@ concise version take a look at
 This is really my first tentative step in understanding the work of 
 [Gerry Beauregard](http://gerrybeauregard.wordpress.com/), a must read for anyone interested in audio 
 signals processing in ActionScript!
+
+[See it in action https://rshergold.github.io/wave/wave.swf](https://rshergold.github.io/wave/wave.swf)
